@@ -1,10 +1,81 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-  height: auto;
+.mainDiv {
+  height: 100%;
   min-height: 100vh;
+  width: 100%;
   background: #fddf11;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.mainHeader {
+  height: 10%;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.mainBody {
+  display: flex;
+  overflow-x: auto;
+}
+
+.dataDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100rem;
+  width: 100%;
+  min-width: 200vh;
+  min-height: 87vh;
+
+  @media (max-width: 900px) {
+    min-width: 100vh;
+  }
+
+  @media (max-width: 600px) {
+    min-width: 60vh;
+  }
+
+  @media (max-width: 400px) {
+    min-width: 40vh;
+  }
+
+  @media (max-width: 300px) {
+    min-width: 30vh;
+  }
+
+  @media (max-width: 200px) {
+    min-width: 25vh;
+  }
+}
+
+h1 {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+
+  @media (max-width: 900px) {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 300px) {
+    font-size: 0.6rem;
+  }
 }
