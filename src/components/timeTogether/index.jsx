@@ -17,7 +17,7 @@ export const TimeTogether = () => {
   return (
     <div className="timeContainer">
       <div className="textContainer">
-        <h1 className="timeTogetherText">Mais um mes juntinhos ❤️</h1>
+        <h1 className="timeTogetherText">Mais um mês juntinhos ❤️</h1>
 
         <h1 className="loveTitle">
           *Amar é ser consciente da nossa própria loucura, é quando a gente se
