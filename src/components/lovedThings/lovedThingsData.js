@@ -1,10 +1,10 @@
-import bananaFishImage from "../images/bananaFish.png";
-import coxinha from "../images/coxinha.png";
-import vanGogh from "../images/vanGogh.png";
-import cafe from "../images/cafe.png";
-import zed from "../images/zed.png";
-import caracol from "../images/caracol.png";
-import zedinho from "../images/zedinho.png";
+import bananaFishImage from "../../images/bananaFish.png";
+import coxinha from "../../images/coxinha.png";
+import vanGogh from "../../images/vanGogh.png";
+import cafe from "../../images/cafe.png";
+import zed from "../../images/zed.png";
+import caracol from "../../images/caracol.png";
+import zedinho from "../../images/zedinho.png";
 
 export const lovedThingsData = [
   {
